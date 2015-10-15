@@ -142,6 +142,7 @@ nav ul li a {
 img {
     opacity: 1;
     transition: opacity 0.5s;
+    max-width: 100%;
 }
 img:hover {
     opacity: 0.9;
