@@ -1,17 +1,4 @@
-
-
-
-
-
-/*
-     FILE ARCHIVED ON 1:03:30 May 19, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 3:23:34 Oct 8, 2015.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-@import url(/web/20150519010330/http://fonts.googleapis.com/css?family=Permanent+Marker|Coda);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker|Coda);
 
 body {
     background-color: #818E7B;
@@ -129,36 +116,42 @@ label {
 .row {
     padding-left: 2em;
     padding-right: 2em;
+
+    /* Override Bootstrap: Prevents horizontal scrollbar
+       TODO: solve more elegantly.
+    */
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .bg1 {
     background-color: #060d1a;
-    background-image: url('/web/20150519010330/http://madhacks.org/img/banner1.jpg');
+    background-image: url('/img/banner1.jpg');
     background-size: cover;
 }
 
 .bg2 {
     background-color: #110f1a;
-    background-image: url('/web/20150519010330/http://madhacks.org/img/banner2.jpg');
+    background-image: url('/img/banner2.jpg');
     background-size: cover;
 }
 
 .bg3 {
     background-color: #1a0d15;
-    background-image: url('/web/20150519010330/http://madhacks.org/img/banner3.jpg');
+    background-image: url('/img/banner3.jpg');
     background-size: cover;
     background-position: center center;
 }
 
 .bg4 {
     background-color: #1a080a;
-    background-image: url('/web/20150519010330/http://madhacks.org/img/banner4.jpg');
+    background-image: url('/img/banner4.jpg');
     background-size: cover;
 }
 
 .bg5 {
     background-color: #1a0a08;
-    background-image: url('/web/20150519010330/http://madhacks.org/img/banner5.jpg');
+    background-image: url('/img/banner5.jpg');
     background-size: cover;
 }
 
